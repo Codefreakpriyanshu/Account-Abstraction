@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "tt-light", sans-serif;
+}
+
+@font-face {
+  font-family: "cantry";
+  src: url("./assets/fonts/Cantry.ttf") format("woff2");
+}
+@font-face {
+  font-family: "tt-light";
+  src: url("./assets/fonts/TT\ Firs\ Neue\ Trial\ ExtraLight.ttf")
+    format("woff2");
+}
+@font-face {
+  font-family: "tt-bold";
+  src: url("./assets/fonts/TT\ Firs\ Neue\ Trial\ DemiBold.ttf") format("woff2");
+}

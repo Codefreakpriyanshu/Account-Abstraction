@@ -1,0 +1,112 @@
+/* =====================================   PROFILE  =================================== */
+.profile-header {
+  color: #adb5bd;
+  font-size: 36px;
+  padding: 50px;
+  font-family: "cantry", sans-serif;
+}
+.profile-parent {
+  min-height: 100vh;
+}
+
+.profile-details {
+  display: flex;
+  width: 100%;
+}
+.details-1,
+.details-2 {
+  width: 50%;
+  border: 1px solid #adb5bd;
+  padding: 48px;
+}
+
+.details-1 .iconDiv {
+  margin-left: auto;
+  width: fit-content;
+}
+
+.details-1 .iconImg {
+  height: 33px;
+  width: 33px;
+}
+
+.details-1 .profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
+.details-1 .data-1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.details-1 .name {
+  font-size: normal;
+  font-weight: bold;
+  color: #5d5c5c;
+  font: var(--font-2);
+}
+.details-1 .email {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 5px;
+  color: #5d5c5c;
+  font: var(--font-2);
+}
+
+.details-2 .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.details-2 .title p {
+  font-size: 24px;
+  font-weight: 500;
+}
+.details-2 .title img {
+  width: 48px;
+  height: 48px;
+}
+
+.details-2 .address {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  width: 75%;
+}
+
+.details-2 .country {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+.profile-insights {
+  margin: 75px 0px;
+  padding: 0px 50px;
+}
+
+.profile-insights > p {
+  margin-bottom: 70px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.insights {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.profile-insights .insight-details {
+  width: 35%;
+  background-color: #d9d9d9;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
+}
+
+/* =================================================  lOGIN =================================================== */
